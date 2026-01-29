@@ -1,0 +1,107 @@
+01.29 9:32 PM
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KK Events - Wedding and Event Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #d4af37; /* Gold for wedding theme */
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #d4af37;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .images img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KK Events</h1>
+        <p>Your Dream Events, Beautifully Managed</p>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to KK Events, your premier event management company specializing in weddings and celebrations. We bring creativity, elegance, and perfection to every occasion, from intimate gatherings to grand destination weddings.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li><strong>Event Flower Decoration:</strong> Stunning floral arrangements to transform any venue into a magical space.</li>
+            <li><strong>Pre-Wedding:</strong> Comprehensive planning for engagements, bridal showers, and rehearsal dinners.</li>
+            <li><strong>Destination Wedding:</strong> Exotic locations, full coordination, and unforgettable experiences worldwide.</li>
+            <li><strong>Anniversary:</strong> Romantic celebrations to mark your special milestones.</li>
+            <li><strong>Birthday Party:</strong> Fun, themed parties for all ages, tailored to your vision.</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Marriage Decoration Gallery</h2>
+        <p>Check out some of our exquisite marriage decoration setups, featuring elegant flowers, lighting, and themes.</p>
+        <div class="images">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=300&h=200&fit=crop" alt="Elegant wedding arch with flowers">
+            <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=300&h=200&fit=crop" alt="Table centerpieces with candles and roses">
+            <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=300&h=200&fit=crop" alt="Outdoor wedding setup with floral garlands">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=300&h=200&fit=crop" alt="Bridal bouquet and aisle decorations">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Ready to plan your event? Reach out to us at <a href="mailto:info@kkevents.com">info@kkevents.com</a> or call (123) 456-7890.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 KK Events. All rights reserved.</p>
+    </footer>
+</body>
+</html>
